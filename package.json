@@ -1,0 +1,33 @@
+{
+  "name": "starter-cicd",
+  "version": "1.0.0",
+  "description": "how-to",
+  "main": "index.js",
+  "scripts": {
+  "start": "webpack-dev-server --progress --colors --inline --env.dev",
+  "build": "webpack -p --progress --env.prod"
+},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nu18de29/starter-cicd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nu18de29/starter-cicd/issues"
+  },
+  "homepage": "https://github.com/nu18de29/starter-cicd#readme",
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-com": "^1.0.6"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-jest": "^24.8.0",
+    "babel-loader": "^8.0.6",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "webpack": "^4.39.0"
+  }
+}
